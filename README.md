@@ -1,5 +1,14 @@
-# ETHstorage_Guide
+# ETHstorage Guide
 Complete guide for those who want to contribute for the ETH storage ceremony
+
+For doing this, need a VPS and a Github Account 
+
+Github requirements
+- 1 month old
+- atleast 1 follower
+- atleast 5 following
+- atleast have 1 public repository
+
 ### Deadline 22nd August 2025 
 
 # STEP 1 - GETTING A VPS
@@ -33,8 +42,98 @@ For contributing to the ETHStorage ceremony, you need to keep the terminal proce
 Since the VPS is hosted in the cloud, it will stay active even if you shut down your own PC ✅
 
 - Press **Windows Key + R**, type **powershell**, and hit **Enter** to open PowerShell.
-- ### Now type these commands
-  `ssh root@your-vps-ip`
+### Now copy and paste these commands one-by-one
+
+## Connect your VPS
+  ```bash
+  ssh root@<your vps IP address>
+  ```
+
+## Update and install the dependencies
+```bash
+sudo apt update && sudo apt upgrade -y
+```
+```bash
+sudo apt install -y curl git build-essential
+```
+
+## Installing Node.js
+```bash
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+```
+```bash
+sudo apt install -y nodejs
+```
+```bash
+sudo npm install -g npm@9.2
+```
+
+## Create temporary directory
+```bash
+mkdir ~/trusted-setup-tmp && cd ~/trusted-setup-tmp
+```
+
+## Install Phase2 Cli
+```bash
+sudo npm install -g @p0tion/phase2cli
+```
+
+## Authenticate with GITHUB
+```bash
+phase2cli auth
+```
+
+- Copy the link shown in your terminal or click on [github.com/login/device](https://github.com/login/device)
+- Authorise your github account by the **auth code** shown in your powershell
+- Go back to your powershell
+
+## Contributing to the ceremony
+```bash
+screen -S ceremony
+```
+```bash
+phase2cli contribute -c ethstorage-v1-trusted-setup-ceremony
+```
+
+- Click **randomly** on the prompt came
+
+## Final Steps
+- Now wait for your queue
+- When your turn comes the tool will automatically process your contribution
+- Now.. You have successfully contributed to the ETHstorage V1 Trusted Setup Ceremony ✅
+### If the queue is showing for so many days.. dont worry.. it would still get contributed before 22nd August
+
+##Screen Session Controls
+- Press **Ctrl A + D** , then **D** (Screen detaches)
+  Now you can safely close the powershell and let the queue run in your VPS safely. You can even turn off your WIFI and PC.
+  
+- For re-attaching screen
+  ```bash
+  ssh root@<your vps IP address>
+  ```
+  ```bash
+  screen -r ceremony
+  ```
+
+# After successfull contribution remove the login permissions
+```bash
+  ssh root@<your vps IP address>
+```
+```bash
+  ssh root@<your vps IP address>
+```
+```bash
+  ssh root@<your vps IP address>
+```
+
+### Drop a follow and star in my repository 😄
+X Profile - [cryptoSid1564](https://x.com/cryptoSid1564)
+  
+  
+  
+  
+
+  
   
 
 

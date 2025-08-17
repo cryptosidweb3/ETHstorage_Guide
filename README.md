@@ -105,7 +105,7 @@ phase2cli contribute -c ethstorage-v1-trusted-setup-ceremony
 
 ## Screen Session Controls
 - Press **Ctrl A + D**  (Screen detaches)
-  Now you can safely close the powershell and let the queue run in your VPS safely. You can even turn off your WIFI and PC.
+Now you can safely close the powershell and let the queue run in your VPS safely. You can even turn off your WIFI and PC.
   
 - For re-attaching screen (open your powershell and type these commands)
   ```bash

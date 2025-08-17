@@ -95,7 +95,7 @@ screen -S ceremony
 phase2cli contribute -c ethstorage-v1-trusted-setup-ceremony
 ```
 
-- Click **randomly** on the prompt came
+- Choose **randomly** on the prompt came
 
 ## Final Steps
 - Now wait for your queue

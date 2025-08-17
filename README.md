@@ -118,13 +118,13 @@ Now you can safely close the powershell and let the queue run in your VPS safely
 
 # After successfull contribution remove the login permissions
 ```bash
-  ssh root@<your vps IP address>
+  phase2cli clean
 ```
 ```bash
-  ssh root@<your vps IP address>
+  phase2cli logout
 ```
 ```bash
-  ssh root@<your vps IP address>
+  cd ~ && rm -rf ~/trusted-setup-tmp
 ```
 
 ### Drop a follow and star in my repository 😄

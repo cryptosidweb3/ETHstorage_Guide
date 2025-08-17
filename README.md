@@ -103,7 +103,7 @@ phase2cli contribute -c ethstorage-v1-trusted-setup-ceremony
 - Now.. You have successfully contributed to the ETHstorage V1 Trusted Setup Ceremony ✅
 ### If the queue is showing for so many days.. dont worry.. it would still get contributed before 22nd August
 
-##Screen Session Controls
+## Screen Session Controls
 - Press **Ctrl A + D** , then **D** (Screen detaches)
   Now you can safely close the powershell and let the queue run in your VPS safely. You can even turn off your WIFI and PC.
   

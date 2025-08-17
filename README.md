@@ -20,7 +20,7 @@ Getting a VPS with less than 1 or 2$ is enough
  - Proceed with the payment by sending USDT to the given address ☑️
 
  - Go back to **Virtual Private Servers** under **Products/Services** tab
- - Select a VPS (0.39$/day ,I chose DE-R9-2) and then **order**. (Choose higher specs for a faster contribution)
+ - Select a VPS (0.39$/day ,I chose DE-R9-2) and then **order**. (If possible, Choose higher specs for a faster contribution)
  - Select **Ubuntu 22.04** and **Pay**
  - Select **Personal Account** and then **Place an rder** ☑️
 
